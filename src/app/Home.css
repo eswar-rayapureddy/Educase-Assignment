@@ -1,0 +1,58 @@
+body {
+    margin: 0px;
+    height: 0px;
+}
+.homeContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  background-color: #f5f7fa;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.welcomeCard {
+  background: #fff;
+  padding: 2rem 3rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); 
+  text-align: center;
+  width: 350px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.emptyBlock {
+    height: 200px;
+}
+
+.welcomeCard h2 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.welcomeCard p {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+.buttonBlock button {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  /* transition: background-color 0.2s ease; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.signInBtn {
+    background-color: #6c25ff;
+color: white;
+}
+
+.logInBtn {
+    background-color: #cebafb;
+color: black;
+}
